@@ -1,0 +1,30 @@
+# House Price Prediction Model
+
+This project demonstrates how to build and deploy a house price prediction model using the **Boston Housing Dataset**. The model uses **Random Forest Regressor** for predicting house prices based on various features like crime rate, average number of rooms, and more.
+
+The project involves the following key steps:
+1. **Data Collection**: Loading the dataset from a URL.
+2. **Data Cleaning**: Checking for missing values and duplicates.
+3. **Exploratory Data Analysis (EDA)**: Visualizing the dataset using pair plots and correlation heatmaps.
+4. **Feature Engineering**: Preparing the feature matrix and target variable.
+5. **Model Building**: Using **Random Forest Regressor** with hyperparameter tuning.
+6. **Model Evaluation**: Evaluating the model using Mean Squared Error (MSE) and R-squared.
+7. **Model Deployment**: Saving and loading the model for future predictions.
+
+## Tech Stack
+
+- **Python**: The primary programming language used.
+- **Pandas**: For data manipulation and analysis.
+- **Numpy**: For numerical operations.
+- **Matplotlib**: For data visualization.
+- **Seaborn**: For advanced visualizations.
+- **Scikit-learn**: For building the machine learning model and evaluation.
+- **Joblib**: For saving and loading the model.
+
+## Installation
+
+Follow these steps to set up the project on your local machine:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/house-price-prediction.git

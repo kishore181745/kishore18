@@ -1,0 +1,5 @@
+house-price-prediction/
+├── house_price_model.py    # Main script with model training and evaluation
+├── house_price_model.pkl   # Saved machine learning model
+├── requirements.txt        # List of required Python packages
+└── README.md               # Project overview and instructions
